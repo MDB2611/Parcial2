@@ -11,10 +11,10 @@ namespace Lucky_DannyMarceloDávilaBarrancos.Models
         [Key]
         public string SuerteID { get; set; }
         [Display(Name = "Suerte: ")]
-        [Required]
-        [Url]
         public string Detalle { get; set; }
         [Display(Name = "Foto de la Suerte:")]
+        [Required]
+        [Url]
         public string Imagen { get; set; }
 
     }
